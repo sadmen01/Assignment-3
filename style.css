@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    color: #495057;
+}
+
+footer {
+    background-color: #343a40;
+}
+
 .institute-bg {
     background-color: #F4FAFD;
 }
