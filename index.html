@@ -10,6 +10,7 @@
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
@@ -25,11 +26,11 @@
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Courses</a></li>
+                <li><a href="#course" class="nav-link px-2 link-dark">Courses</a></li>
                 <li><a href="#" class="nav-link px-2 link-dark">Deals</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Success</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Register</a></li>
+                <li><a href="#success" class="nav-link px-2 link-dark">Success</a></li>
+                <li><a href="#about" class="nav-link px-2 link-dark">About</a></li>
+                <li><a href="#ready" class="nav-link px-2 link-dark">Register</a></li>
             </ul>
 
             <div class="col-md-3 text-end">
@@ -105,7 +106,7 @@
                         readable content of a page when looking at its layout.</p>
                 </div>
                 <!-- coursr list -->
-                <div class="row gap-5 sm:row-cols-1 md:row-cols-2 lg:row-cols-3 ">
+                <div class="row gap-5 sm:row-cols-1 md:row-cols-2 lg:row-cols-3 " id="course">
 
 
                     <div class="d-flex sm:flex-column gap-5 col shadow-lg rounded-3 p-4">
@@ -198,7 +199,7 @@
             </section>
             <!-- ready section -->
             <section class="container mt-5">
-                <div class="bg-primary row row-cols-md-2 row-cols-1 my-5 p-5  align-items-center">
+                <div class="bg-primary row row-cols-md-2 row-cols-1 my-5 p-5  align-items-center" id="ready">
 
                     <div>
                         <h2 class="text-light display-5 fw-semibold">Are You Ready to join in our Course?</h2>
@@ -221,7 +222,7 @@
                     <p>It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="row  row-cols-1 row-cols-md-4 g-4">
+                <div class="row  row-cols-1 row-cols-md-4 g-4" id="success">
                     <div class="col">
                         <div class="card h-100">
                             <img src="images/student/student-1.png" class="card-img-top" alt="...">
@@ -268,14 +269,15 @@
                     <p class="h5 text-secondary">Here is some
                     <div class="mb-5 row row-cols-lg-2 row-cols-1 d-flex justify-content-center align-items-center">
                         feedback about our course...you can read our students
-                        feedback...</p>
-                    </div>
+                        feedback...</div>
+                    </p>
                 </div>
+
             </article>
 
             <section class="my-5">
                 <!--  feedbacks... -->
-                <div class="row g-4">
+                <div class="row g-4" id="about">
                     <div class="col-sm-12 col-md-6">
                         <div class="card">
                             <div class="card-body">
@@ -347,14 +349,16 @@
             </section>
             <!-- asked question -->
             <article>
-                <div
-                    class="text-center row row-cols-lg-2 row-cols-1 d-flex flex-column justify-content-start align-items-center mb-5 ">
+                <div class="text-center ">
+                    class="text-center row row-cols-lg-2 row-cols-1 d-flex flex-column justify-content-start
+                    align-items-center mb-5 ">
                     <h2 class="display-6 fw-semibold">Frequently Asked Questions</h2>
                     <p class="h5 text-secondary">In no small part,
                     <div class="mb-5 row row-cols-lg-2 row-cols-1 d-flex justify-content-center align-items-center">
                         the importance of FAQ pages has been driven in recent years by the growth in voice search,
-                        mobile search, and personal/home assistants and speakers.</p>
-                    </div>
+                        mobile search, and personal/home assistants and speakers. </div>
+                    </p>
+
                 </div>
             </article>
             <section>
@@ -438,7 +442,7 @@
                 </div>
             </section>
             <!-- compalys -->
-            <section class="container my-5 d-lg-block d-none">
+            <section class="container m-5 d-lg-block d-none">
                 <h2 class="display-5 fw-samibold text-center mb-5 ">Trusted by over 800+ companies</h2>
                 <div class="row  row-cols-lg-6 row-cols-md-3 row-cols-1 text-center">
                     <div class="g-5"><img src="images/company/company-1.png" alt=""></div>
@@ -451,6 +455,33 @@
             </section>
 
         </main>
+
+        <!-- footer -->
+        <footer class="container p-5 mt-5 bg-dark">
+            <div class="row row-cols-lg-2 row-cols-1 justify-content-center align-items-center text-center text-light">
+                <div>
+                    <h2 class="display-5 fw-semibold">Pro Edu</h2>
+                    <p class="text-white-50">Office 41, Zawaya Buildin, Ghala Muscat,Sultanate of Oman</p>
+                    <p><small class="text-white-50">Privacy Ploicy | Terms of use</small></p>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="fs-3">
+                    <a href="https://www.facebook.com/"><i
+                            class="fa-brands fa-facebook bg-secondary p-3 rounded-circle"></i></a>
+
+                    <a href="https://www.linkedin.com/"><i
+                            class="fa-brands fa-linkedin bg-secondary p-3 rounded-circle"></i></a>
+
+                    <a href="https://www.instagram.com/"> <i
+                            class="fa-brands fa-instagram bg-secondary p-3 rounded-circle"></i></a>
+                    <a href="https://www.tiktok.com/"><i
+                            class="fa-brands fa-tiktok bg-secondary p-3 rounded-circle"></i></a>
+
+                </div>
+            </div>
+        </footer>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"></script>
